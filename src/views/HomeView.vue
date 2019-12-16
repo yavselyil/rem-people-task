@@ -94,7 +94,7 @@ export default {
 .inputs > div {
   min-height: 60px;
   float: left;
-  margin-right: 30px;
+  margin-right: 40px;
   box-shadow: 0px 6px 5px 2px rgb(119, 120, 123);
 }
 
@@ -110,10 +110,16 @@ export default {
   border-radius: 6px;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 800px) {
   .inputs > div {
     float: none;
     margin-bottom: 30px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .welcome {
+    padding-left: 60px;
   }
 }
 
@@ -131,12 +137,13 @@ export default {
   font-size: 36px;
   text-align: left;
   color: #000;
+  width: 100%;
 }
 
 .login-btn {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   float: right;
-  margin-top: 25px;
+  margin-top: 50px;
   font-weight: bold;
   border-radius: 0;
   background-color: #fff;
