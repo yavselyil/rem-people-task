@@ -34,7 +34,6 @@ body.home {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 100% 100%;
   width: 100%;
 }
 

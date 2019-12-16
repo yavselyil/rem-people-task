@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <form action="" @submit="logIn">
+    <form @submit="logIn">
       <div class="input-area">
         <p class="welcome">
           Welcome to <br /><span style="text-decoration: underline">rem</span
@@ -123,7 +123,7 @@ export default {
   justify-content: center;
   float: left;
   margin-top: 150px;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 .welcome {
